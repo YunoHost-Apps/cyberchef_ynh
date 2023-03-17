@@ -32,7 +32,7 @@ ram.runtime = "0M"
 
     [install.path]
     type = "path"
-    default = "/example"
+    default = "/cyberchef"
 
     [install.init_main_permission]
     type = "group"
