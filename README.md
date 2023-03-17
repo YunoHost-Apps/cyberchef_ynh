@@ -37,12 +37,6 @@ It is expected that CyberChef will be useful for cybersecurity and antivirus com
 
 ![Screenshot of CyberChef](./doc/screenshots/cyberchef_ynh.png)
 
-## Disclaimers / important information
-
-# Disclaimer
-
-This webapp does not store nor transmit your data. But if the data treated is particularly sensitive, you may want to download the webapp from upstream repository and run it locally, in incognito/private browsing mode with no extensions (to avoid rogue browser extensions).
-
 ## Documentation and resources
 
 * Official user documentation: <https://github.com/gchq/CyberChef/wiki>
