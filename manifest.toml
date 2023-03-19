@@ -16,10 +16,10 @@ code = "https://github.com/gchq/CyberChef"
 cpe = "cpe:2.3:a:gchq:cyberchef"
 
 [integration]
-yunohost = ">= 11.1.6"
+yunohost = ">= 11.1.15"
 architectures = "all"
 multi_instance = true
-ldap = "not_relevant" 
+ldap = "not_relevant"
 sso = "not_relevant"
 disk = "40M"
 ram.build = "0M"
@@ -32,7 +32,7 @@ ram.runtime = "0M"
 
     [install.path]
     type = "path"
-    default = "/example"
+    default = "/cyberchef"
 
     [install.init_main_permission]
     type = "group"
