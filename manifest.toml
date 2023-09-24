@@ -45,8 +45,8 @@ ram.runtime = "20M"
         [resources.sources.main]
         url = "https://github.com/gchq/CyberChef/releases/download/v10.5.2/CyberChef_v10.5.2.zip"
         sha256 = "a4d47a313d9e79d08775abfde18a08c32b50b4db8fa52261bfddbb785910d0ef"
+        format = "zip"
         extract = true
-        zip = true
         in_subdir = false
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset = "CyberChef_.*zip"
