@@ -31,7 +31,7 @@ Une application web simple et intuitive pour analyser et décoder des données s
 
 * Documentation officielle utilisateur : <https://github.com/gchq/CyberChef/wiki>
 * Dépôt de code officiel de l’app : <https://github.com/gchq/CyberChef>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_cyberchef>
+* YunoHost Store: <https://apps.yunohost.org/app/cyberchef>
 * Signaler un bug : <https://github.com/YunoHost-Apps/cyberchef_ynh/issues>
 
 ## Informations pour les développeurs

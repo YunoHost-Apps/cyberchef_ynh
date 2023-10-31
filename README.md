@@ -31,7 +31,7 @@ A simple, intuitive web app for analysing and decoding data without having to de
 
 * Official user documentation: <https://github.com/gchq/CyberChef/wiki>
 * Upstream app code repository: <https://github.com/gchq/CyberChef>
-* YunoHost documentation for this app: <https://yunohost.org/app_cyberchef>
+* YunoHost Store: <https://apps.yunohost.org/app/cyberchef>
 * Report a bug: <https://github.com/YunoHost-Apps/cyberchef_ynh/issues>
 
 ## Developer info
