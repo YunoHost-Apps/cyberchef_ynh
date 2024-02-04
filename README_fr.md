@@ -19,7 +19,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 Une application web simple et intuitive pour analyser et décoder des données sans avoir affaire à des outils ou des langages de programmation compliqués. CyberChef s'adresse aussi bien aux utilisateurs expérimentés qu'aux plus novices souhaitant explorer les formats de données, leur chiffrement et leur compression: encoder, décoder, formater, analyser, chiffrer, déchiffrer, compresser, extraire, fonctions arithmétiques, etc.. Il y a en tout près de 300 outils dans CyberChef permettant de réaliser facilement des tâches simples ou complexes.
 
 
-**Version incluse :** 10.5.2~ynh1
+**Version incluse :** 10.6.0~ynh1
 
 **Démo :** https://gchq.github.io/CyberChef
 
