@@ -19,7 +19,12 @@ index_page="CyberChef_v${upstream_version}.html"
 #=================================================
 ynh_script_progression --message="Setting up source files..." --weight=10
 
+sources_json=$(cat $YNH_APP_BASEDIR/manifest.toml | toml_to_json | jq ".resources.sources[\"main\"]")
+upstream_source_url=$(echo $sources_json | jq -r .url)
+source_filename=$(basename $upstream_source_url)
+index_html_page=$(basename -s .zip $upstream_source_url).html
 ynh_setup_source --dest_dir="$install_dir"
+sed -i "s|$source_filename|$upstream_source_url|g" "$install_dir/$index_html_page" #replace local link to source file with upstream source file's link 
 chown -R $app:www-data "$install_dir"
 
 #=================================================
