@@ -11,8 +11,9 @@ source /usr/share/yunohost/helpers
 
 upgrade_type=$(ynh_check_app_version_changed)
 
-upstream_version=$(ynh_app_upstream_version)
-index_page="CyberChef_v${upstream_version}.html"
+upstream_source_url=$(ynh_read_manifest --manifest_key="resources.sources.main.url")
+source_filename=$(basename $upstream_source_url)
+index_page=$(basename -s .zip $upstream_source_url).html #this variable will also populate the template tag __INDEX_PAGE__ in nginx.conf
 
 #=================================================
 # "REBUILD" THE APP (DEPLOY NEW SOURCES, RERUN NPM BUILD, ETC...)
@@ -23,12 +24,8 @@ index_page="CyberChef_v${upstream_version}.html"
 if [ "$upgrade_type" == "UPGRADE_APP" ]
 then
 	ynh_script_progression --message="Upgrading source files..." --weight=10
-	sources_json=$(cat $YNH_APP_BASEDIR/manifest.toml | toml_to_json | jq ".resources.sources[\"main\"]")
-	upstream_source_url=$(echo $sources_json | jq -r .url)
-	source_filename=$(basename $upstream_source_url)
-	index_html_page=$(basename -s .zip $upstream_source_url).html
 	ynh_setup_source --dest_dir="$install_dir"
-	sed -i "s|$source_filename|$upstream_source_url|g" "$install_dir/$index_html_page" #replace local link to source file with upstream source file's link 
+	sed -i "s|$source_filename|$upstream_source_url|g" "$install_dir/$index_page" #replace local link to source file with upstream source file's link 
 	chown -R $app:www-data "$install_dir"
 fi
 
