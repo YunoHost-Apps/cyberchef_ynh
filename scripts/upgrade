@@ -25,7 +25,7 @@ if [ "$upgrade_type" == "UPGRADE_APP" ]
 then
 	ynh_script_progression --message="Upgrading source files..." --weight=10
 	ynh_setup_source --dest_dir="$install_dir"
-	sed -i "s|$source_filename|$upstream_source_url|g" "$install_dir/$index_page" #replace local link to source file with upstream source file's link 
+	ynh_replace_string --match_string="$source_filename" --replace_string="$upstream_source_url" --target_file="$install_dir/$index_page" #replace link to local source file with link to upstream source file 
 	chown -R $app:www-data "$install_dir"
 fi
 
