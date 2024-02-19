@@ -12,7 +12,7 @@ source /usr/share/yunohost/helpers
 upgrade_type=$(ynh_check_app_version_changed)
 
 upstream_source_url=$(ynh_read_manifest --manifest_key="resources.sources.main.url")
-source_filename=$(basename $upstream_source_url)
+filename_sourcefile=$(basename $upstream_source_url)
 index_page=$(basename -s .zip $upstream_source_url).html #this variable will also populate the template tag __INDEX_PAGE__ in nginx.conf
 
 #=================================================
@@ -25,7 +25,7 @@ if [ "$upgrade_type" == "UPGRADE_APP" ]
 then
 	ynh_script_progression --message="Upgrading source files..." --weight=10
 	ynh_setup_source --dest_dir="$install_dir"
-	sed -i "s|$source_filename|$upstream_source_url|g" "$install_dir/$index_page" #replace local link to source file with upstream source file's link 
+	ynh_replace_string --match_string="$filename_sourcefile" --replace_string="$upstream_source_url" --target_file="$install_dir/$index_page" #replace link to local source file with link to upstream source file 
 	chown -R $app:www-data "$install_dir"
 fi
 
