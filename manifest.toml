@@ -43,7 +43,7 @@ ram.runtime = "20M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/gchq/CyberChef/releases/download/v10.8.1/CyberChef_v10.8.2.zip"
+        url = "https://github.com/gchq/CyberChef/releases/download/v10.8.2/CyberChef_v10.8.2.zip"
         sha256 = "d0b5e6db16c588bf3c0f856cd63fced730d2c6fb491eee9113256cf5ce935dd4"
         format = "zip"
         extract = true
