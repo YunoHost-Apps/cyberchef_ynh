@@ -4,7 +4,7 @@ id = "cyberchef"
 name = "CyberChef"
 description.en = "Cyber Swiss Army Knife - toolbox for data analysis"
 description.fr = "Cyber-couteau suisse - boîte à outils pour l'analyse de données"
-version = "10.10.0~ynh1"
+version = "10.13.0~ynh1"
 
 maintainers = ["oleole39"]
 
@@ -43,8 +43,8 @@ ram.runtime = "20M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/gchq/CyberChef/releases/download/v10.10.0/CyberChef_v10.10.0.zip"
-        sha256 = "a7f9d2ca67136fb592cd37936a9b136320ff0561acc2acbdf3289e4cabffd4fd"
+        url = "https://github.com/gchq/CyberChef/releases/download/v10.13.0/CyberChef_v10.13.0.zip"
+        sha256 = "c9f8032718b08584771f9c8e28a387e78751932ea4b78bbce233225a638cb3f2"
         format = "zip"
         extract = true
         in_subdir = false
