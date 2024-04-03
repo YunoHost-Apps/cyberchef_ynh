@@ -19,7 +19,7 @@ NON debe editarse manualmente.
 A simple, intuitive web app for analysing and decoding data without having to deal with complex tools or programming languages. CyberChef encourages both technical and non-technical people to explore data formats, encryption and compression: encode, decode, format data, parse data, encrypt, decrypt, compress data, extract data, perform arithmetic functions against data, etc.. There are around 300 operations in CyberChef allowing you to carry out simple and complex tasks easily.
 
 
-**Versión proporcionada:** 10.14.0~ynh1
+**Versión proporcionada:** 10.15.0~ynh1
 
 **Demo:** <https://gchq.github.io/CyberChef>
 
