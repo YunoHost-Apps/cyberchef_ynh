@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # CyberChef YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/cyberchef.svg)](https://dash.yunohost.org/appci/app/cyberchef) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/cyberchef.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/cyberchef.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/cyberchef.svg)](https://ci-apps.yunohost.org/ci/apps/cyberchef/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/cyberchef.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/cyberchef.maintain.svg)
 
 [![Instalatu CyberChef YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cyberchef)
 
@@ -19,7 +19,7 @@ EZ editatu eskuz.
 A simple, intuitive web app for analysing and decoding data without having to deal with complex tools or programming languages. CyberChef encourages both technical and non-technical people to explore data formats, encryption and compression: encode, decode, format data, parse data, encrypt, decrypt, compress data, extract data, perform arithmetic functions against data, etc.. There are around 300 operations in CyberChef allowing you to carry out simple and complex tasks easily.
 
 
-**Paketatutako bertsioa:** 10.19.0~ynh1
+**Paketatutako bertsioa:** 10.19.2~ynh1
 
 **Demoa:** <https://gchq.github.io/CyberChef>
 

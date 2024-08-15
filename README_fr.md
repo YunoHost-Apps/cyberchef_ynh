@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # CyberChef pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/cyberchef.svg)](https://dash.yunohost.org/appci/app/cyberchef) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/cyberchef.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/cyberchef.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/cyberchef.svg)](https://ci-apps.yunohost.org/ci/apps/cyberchef/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/cyberchef.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/cyberchef.maintain.svg)
 
 [![Installer CyberChef avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cyberchef)
 
@@ -19,7 +19,7 @@ Il NE doit PAS être modifié à la main.
 Une application web simple et intuitive pour analyser et décoder des données sans avoir affaire à des outils ou des langages de programmation compliqués. CyberChef s'adresse aussi bien aux utilisateurs expérimentés qu'aux plus novices souhaitant explorer les formats de données, leur chiffrement et leur compression: encoder, décoder, formater, analyser, chiffrer, déchiffrer, compresser, extraire, fonctions arithmétiques, etc.. Il y a en tout près de 300 outils dans CyberChef permettant de réaliser facilement des tâches simples ou complexes.
 
 
-**Version incluse :** 10.19.0~ynh1
+**Version incluse :** 10.19.2~ynh1
 
 **Démo :** <https://gchq.github.io/CyberChef>
 
