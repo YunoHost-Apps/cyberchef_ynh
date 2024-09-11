@@ -8,8 +8,6 @@ source_filename=$(basename $upstream_source_url)
 index_page=$(basename -s .zip $upstream_source_url).html #this variable will also populate the template tag __INDEX_PAGE__ in nginx.conf
 
 #=================================================
-# APP "BUILD" (DEPLOYING SOURCES, VENV, COMPILING ETC)
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Setting up source files..."
