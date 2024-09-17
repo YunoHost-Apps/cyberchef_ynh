@@ -4,7 +4,8 @@ id = "cyberchef"
 name = "CyberChef"
 description.en = "Cyber Swiss Army Knife - toolbox for data analysis"
 description.fr = "Cyber-couteau suisse - boîte à outils pour l'analyse de données"
-version = "10.19.2~ynh1"
+
+version = "10.19.2~ynh2"
 
 maintainers = ["oleole39"]
 
