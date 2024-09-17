@@ -3,7 +3,7 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
-upstream_source_url=$(ynh_read_manifest)
+upstream_source_url=$(ynh_read_manifest "resources.sources.main.url")
 source_filename=$(basename $upstream_source_url)
 #this variable will also populate the template tag __INDEX_PAGE__ in nginx.conf
 index_page=$(basename -s .zip $upstream_source_url).html
