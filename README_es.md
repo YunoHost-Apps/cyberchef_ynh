@@ -36,7 +36,7 @@ A simple, intuitive web app for analysing and decoding data without having to de
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/cyberchef_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/cyberchef_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
