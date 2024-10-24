@@ -19,7 +19,7 @@ No se debe editar a mano.
 A simple, intuitive web app for analysing and decoding data without having to deal with complex tools or programming languages. CyberChef encourages both technical and non-technical people to explore data formats, encryption and compression: encode, decode, format data, parse data, encrypt, decrypt, compress data, extract data, perform arithmetic functions against data, etc.. There are around 300 operations in CyberChef allowing you to carry out simple and complex tasks easily.
 
 
-**Versión actual:** 10.19.2~ynh1
+**Versión actual:** 10.19.2~ynh2
 
 **Demo:** <https://gchq.github.io/CyberChef>
 
@@ -36,7 +36,7 @@ A simple, intuitive web app for analysing and decoding data without having to de
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/cyberchef_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/cyberchef_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
