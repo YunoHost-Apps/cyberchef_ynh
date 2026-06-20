@@ -17,7 +17,7 @@ code = "https://github.com/gchq/CyberChef"
 cpe = "cpe:2.3:a:gchq:cyberchef"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
